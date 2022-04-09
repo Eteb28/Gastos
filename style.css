@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(158, 204, 241);
+    margin: 4px;
+    padding: 2px;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    size: 4px;
+}

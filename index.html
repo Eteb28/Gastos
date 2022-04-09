@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control de Gasto</title>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <select name="Gasto" id="opciones">
+      <option value="1">Tarjeta Santander Visa</option>
+      <option value="2">Cuota Toyota</option>
+      <option value="3">Cuota Hipotecario</option>
+      <option value="4">Jerarquicos</option>
+      <option value="5">Gas</option>
+      <option value="6">Combustible</option>
+      <option value="7">Luz</option>
+      <option value="8">Varios</option>
+    </select>
+    <input type="text" value="$0.0">
+    <input type="date" name="Vencimiento" id="">
+    <input type="submit" value="Cargar">
+  </div>
+  <br>
+  <div class="container">
+    <select name="Ingresos" id="opciones1">
+      <option value="1">Sueldo</option>
+      <option value="2">Refrigerio</option>
+      <option value="3">Horas Extras</option>
+      <option value="4">Plus</option>
+      <option value="5">Varios</option>
+    </select>
+    <input type="text" value="$0.0">
+    <input type="date" name="Fecha" id="">
+    <input type="submit" value="Cargar">
+  </div>
+  <br>
+  <div class="container">  
+    <textarea name="saldo" id="saldo" cols="10" rows="4"></textarea>
+  </div>
+</body>
+</html>
